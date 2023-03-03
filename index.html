@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- meta datos  -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV :Gonzalo JMen</title>
+    <!-- fav-icon  -->
+    <link rel="icon" href="img/icon.png" type="image/x-icon">
+    <i class="fa-sharp fa-regular fa-rectangle-terminal"></i>
+    <!-- bootstrap -->   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" href="assets/style.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap" rel="stylesheet">
+    <!-- iconos de font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"  />
+  </head>
+<body>
+  
+    <!-- barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-toggler">
+            <a class="navbar-brand" href="#">
+              <img src="img/icon-argprograma.png" alt="icono" class="navbar--icon">
+            </a>
+            <ul class="navbar-nav ">
+              <li class="nav-item">
+                <a class="nav-link active nav-a" aria-current="page" href="#mi-info">Mi-info</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-a" href="#experiencia">Experiencia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-a" href="#habilidades">Habilidades</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link nav-a" href="#">Contacto</a>
+              </li> -->
+            </ul>
+            
+          </div>
+        </div>
+    </nav>
+    <!-- seccion principal -->
+    <section class="principal">
+      <div class="principal-div">
+        <img class="principal-div-img" src="https://randomuser.me/api/portraits/men/87.jpg" alt="perfil personal">
+        <h1>Hola soy Gonzalo JMen</h1>
+        <h2>Programador Web y autodidacta de las IT</h2>
+      </div>
+      
+      <div class="principal-div2">
+        <img class="principal-div2-img" src="img/front-png.png" alt="lenguajes-d-programacion">
+
+      </div>
+    </section>
+
+    <!-- seccion  mi-informacion -->
+    <section id="mi-info" class="mi-informacion seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo ">Informacion Personal </h2>
+        <ul>
+          <li>Mi-nombre:  Gonzalo Javier Mendoza</li>
+          <li>Correo: perry.hamilton@example.com </li>
+          <li>Direccion: 2982 Shady Ln Dr</li>
+          <li>Telefono: (362) 964-1152</li>
+          <li>Nacido: 8/5/1989 </li>
+        </ul>
+      </div>
+    </section>
+
+    <!----------- seccion experiencia  ------------------->
+    <section id="experiencia" class="experiencia seccion-clara">
+      <div class="container ">
+        <div class="row">
+          <!-- desarrollo web -->
+          <div class="columna col-12 col-md-4">
+            <i class="fa-solid fa-laptop-code"></i>
+            <i class="fa-brands fa-html5"></i>
+            <i class="fa-brands fa-css3"></i>
+
+            <p class="experiencia-titulo">Desarrollo web</p>
+            <p>Tengo 2 años de experiencia en el desarrollo Frontend, con el manejo de Html ,CSS,JavaScrip .<br> Tambien poseo experiencia en el uso del Frameworks Bootstrap, y conocimiento basico del Framework Tailwind CSS  </p>
+          </div>
+          <!-- lenguajes de uso -->
+          <div class="columna col-12 col-md-4">
+            <i class="fa-brands fa-js"></i>
+            <i class="fa-brands fa-java"></i>
+            <i class="fa-brands fa-python"></i>
+
+            <p class="experiencia-titulo">Lenguajes de Programacio</p>
+            <p>Poseo experiencia ens en :
+              <ul>
+                <li>JavaScrip: nivel-alto</li>
+                <li>   Python: nivel-medio</li>
+                <li>    Java : nivel-medio</li>
+                <li>    Php  : nivel-basico</li>
+                <li>    C#   : nivel-basico</li>
+                <li>   C++  : nivel-basico</li>
+              </ul>
+            </p>
+          </div>
+          <!-- estudios -->
+          <div class="columna col-12 col-md-4">
+            <i class="fa-solid fa-building-columns"></i>
+            <i class="fa-solid fa-graduation-cap"></i>
+            <i class="fa-brands fa-studiovinari"></i>
+
+            <p class="experiencia-titulo">Estudio</p>
+            <p>La etapa de estudiate en un Establecimiento Nacional me brindo y brinda gran parte de los conocimientos que he adquirido. <br>Otra parte me la otorgo las comunidades de profesores y divulgadores de la red. <br>Actualmente curso la carrera Ingenieria Informatica </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- habilidades -->
+    <section id="habilidades" class="habilidades seccion-clara">
+      <h2 class="seccion-titulo">Algunas de las habilidades que manejo para las IT </h2>
+      
+
+      <!-- habilidades con bootstrap carrusel -->
+      <div id="habilidades-carrusel" class="carousel carousel-dark slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img  class="habilidad-imagen rounded-circle " src="img/trabajo-equipo.png" alt="trabajo en equipo">
+              <p class="habilidad-texto"> Como programadores debemos aprender a trabajar con otras personas, ya sean otros desarrolladores o miembros de otros equipos al interior de las compañías. Creo que es una habilidad fundamental y trato de entrenarla todos los dias para generar equipos de trabajo más amigables y productivos.   </p>
+              <div class="habilidad-info">
+                <p class="habilidades">Trabajo en equipo</p>
+                
+              </div>
+            </div>
+
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img  class="habilidad-imagen rounded-circle " src="img/change-adaption.png" alt="adaptacion al cambio">
+              <p class="habilidad-texto">Como podemos ver la innovación constante del mundo de la tecnología que demanda velocidad para afrontar las novedades del sector, como un junior debo aprender a convivir con entornos en constante mutación. Cambios en los proyectos, rotaciones de equipos, nuevos lenguajes de programación,etc.Aprender a convivir con la incertidumbre y poder mostrarme flexible ayuda en el proceso de alcanzar un objetivo en comun.   </p>
+              <div class="habilidad-info">
+                <p class="habilidades">Adaptacion al cambio</p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img  class="habilidad-imagen rounded-circle " src="img/time-ge.png" alt="gestion del tiempo">
+              <p class="habilidad-texto">Dentro de este mundo cambiante y remoto, creo que es importante desarrollar la habilidad de manejar el tiempo disponible para cada proyecto. Como Junior tengo la posibilidad de convertirme en colaborador imprescindible si además de entrenar mis habilidades técnicas demuestro un buen criterio para organizar mis tareas, definir prioridades y urgentes, establecer plazos y llevar un registro de todo ello.   </p>
+              <div class="habilidad-info">
+                <p class="habilidades">Gestion del Tiempo</p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#habilidades-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#habilidades-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+     
+
+
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/454a7df56d.js" crossorigin="anonymous"></script>
+
+  </body>
+</html>
+
+
+
+
+
+

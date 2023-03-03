@@ -1,0 +1,223 @@
+
+/* #foto_carnet img{
+    border-radius: 50%;
+}
+#info_personal div{
+  position: static;
+} */
+
+/* ------------------------------------------- */
+/* :root{
+  --
+}  */
+.seccion-oscura{
+    color: white;
+    background-color: #1b1b32;
+  }
+  .seccion-titulo{
+    font-size:2rem;
+    padding: 15px 0 ;
+    font-family: 'Roboto', sans-serif;
+  }
+  .seccion-texto{
+    font-size: 1.2rem;
+  }
+  section{
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* eje principal */
+    justify-content: center;
+  }
+  
+  /* ------------------------------------------- */
+  /* barra de navegacion */
+  .navbar{
+    padding: 1.rem;
+    background-color: #c6ddd28c;
+  }
+  
+  .navbar-collapse{
+    
+    align-items: center;
+    justify-content:space-between;
+    
+  }
+  .navbar-collapse .nav-a{
+    font-family: 'Roboto', sans-serif;
+    font-size:1.5rem;
+  
+    align-items: center;
+    justify-content:space-between;
+  }
+  /* .navbar-collapse i{
+  
+    font-size: 2.5rem;
+    color:#10110f;
+    background-color: #ffffff80 ;
+    padding:2px 10px;
+    border-radius: 15%;
+  
+    border: 3px solid black;
+  } */
+  
+  .navbar-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar--icon{
+    width:50px;
+    padding: 0px;
+    margin:0px;
+  }
+  
+  /* seccion principal */
+  .principal{
+    align-items: stretch;
+    background-color:aliceblue;
+    min-height: 450px; /* le establezco una altura minima para que esta se pueda 
+    estirar cuando lo requira */
+    text-align: center;
+  
+  }
+  .principal-div{
+    padding: 0.5rem;
+  
+    display: flex;
+    flex-direction: column;  
+    justify-content: center; 
+    align-items: center;
+  
+  }
+  .principal-div-img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin:20px;
+  }
+  
+  .pricipal-div h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    color: #3d4242;
+  }
+  
+  .principal-div2-img{
+    width:100%;
+  }
+  /* mi informacion */
+  .mi-informacion{
+    height: 500px;
+    padding: 50px;
+  }
+  .mi-informacion .contenedor{
+    max-width: 600px;
+    text-align: center;
+  }
+  ul{
+    list-style: none;
+  }
+  
+  /*--------------------- seccion  experiencia ------------------*/
+  
+  .container{
+    text-align: center;
+  }
+  .experiencia{
+    padding: 40px 40px 60px 40px;
+    
+  }
+  
+  .experiencia-titulo{
+    font-size: 25px;
+    font-weight: bold;
+    margin:20px 0;
+  }
+  .experiencia i{
+    font-size: 2.5rem;
+    color:#7ade30;
+    background-color: #1818cf;
+    padding:8px 19px;
+    border-radius: 30%;
+  }
+  .experiencia .columna{ 
+    padding:20px;
+    border:2px solid #8080804d;
+    /* display:flex; */
+    flex-direction:colum;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.2s ease-in;
+    /* lo de arriba es un efecto para todos los elementos =all que va a durar
+    0.2s y el efecto es = ease-in*/
+  }
+  .experiencia .columna:hover{
+    color:white;
+    background-color: #1b1b32;
+  }
+  /* ----------------------hablidades */
+  
+  .habilidades{
+    padding:40px 40px 80px 40px;
+  }
+  
+  .habilidades .carousel{
+    max-width: 800px;
+  }
+  .carousel-item{
+    height: 500px;
+  }
+  .carousel-item .container{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+  }
+  .habilidad-imagen{
+    height: 150px;
+    width: 150px;
+    margin:10px 10px 20px 10px;
+  }
+  .habilidad-texto{
+    max-width: 70%;
+    font-size: 20px;
+    text-align: center;
+  }
+  .habilidad-info{
+    font-weight: bold;
+    text-align: center;
+  }
+  .habilidad-info p{
+    margin-bottom:0;
+  }
+  .habilidad-footer .habilidades{
+    font-size:1.2rem;
+  } 
+  
+  /* media queeri */
+  @media screen and (max-width: 767px) {
+    .navbar-brand{
+      display:none;
+    }
+  }
+  @media screen and (max-width:800px){
+    .habilidad-imagen{
+      height:120px;
+      width:120px;
+    }
+    .habilidad-texto{
+      font-size:18px;
+    }
+  }
+  
+  
+  @media screen and (min-width: 700px){
+    .principal-div2-img{
+      max-width: 600px;
+  
+    }
+  }
+  
+  
